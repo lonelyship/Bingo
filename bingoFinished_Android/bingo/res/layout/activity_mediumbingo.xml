@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/MLinearLayoutIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.systex.bingo.SmallBingoActivity" >
+
+        <TextView
+            android:id="@+id/MtextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lines"
+            android:textColor="@color/Orange"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/MimgBingo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bingo"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/MLinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/MButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/MLinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MButton05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/MLinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MButton09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/MLinearLayout04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+
+            <Button
+                android:id="@+id/MButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/Green"
+                android:text="@string/input" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/MSwitch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/gamemode" />
+
+        <LinearLayout
+            android:id="@+id/MLinearLayout05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/MButtonRandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/Yellow"
+                android:text="@string/random" />
+
+            <Button
+                android:id="@+id/MButtonInit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/Purple"
+                android:text="@string/init" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

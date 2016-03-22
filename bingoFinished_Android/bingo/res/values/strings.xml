@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BINGO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_small_bingo"> 3X3</string>
+    <string name="title_activity_medium_bingo">4X4</string>
+    <string name="input">*</string>
+    <string name="gamemode">遊戲模式</string>
+    <string name="game">開始遊戲</string>
+    <string name="random">亂數</string>
+    <string name="init">初始化</string>
+    <string name="lines">您目前的連線數</string>
+    <string name="numPicker">請選擇一個數字</string>
+    <string name="isRepeat">數字重複囉 請選擇其他數字</string>
+    <string name="notYet">您還有數字還沒填</string>
+    <string name="comfirm">確定</string>
+    <string name="cancel">取消</string>
+    <string name="selectmaxrange">請選擇最大範圍:</string>
+    <string name="maxrange">最大範圍:</string>
+    <string name="bingo">!!!B.I.N.G.O!!!:</string>
+
+    <string name="exit">確認要離開?</string>
+
+</resources>

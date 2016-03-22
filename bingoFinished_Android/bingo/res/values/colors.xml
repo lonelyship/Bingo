@@ -1,0 +1,11 @@
+<resources>
+    
+    <color name="Green">#0f0</color>
+    <color name="Red">#f00</color>
+    <color name="Orange">#FF8800</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Purple"> #FF00FF</color>
+    <color name="blue">#0000CC</color>
+    <color name="white">#FFFFFF</color>
+    
+</resources>
